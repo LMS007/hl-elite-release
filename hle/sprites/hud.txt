@@ -1,4 +1,4 @@
-145
+147
 
 selection		320 320hud1	160	160	80	20
 
@@ -75,6 +75,7 @@ d_sniperrifle   320 	320hudof01 	144 	208 	48  	16
 
 d_knife   320 320hudof01 96 224 48  16
 d_pipewrench   320 320hudof01 0 208 48  16
+d_eagle   320 320hudof01 0 240 48  16
 
 item_battery	320 	320hud2	48	52	20	20
 item_healthkit	320	320hud2	68	52	20	20
@@ -168,6 +169,7 @@ d_sniperrifle      640 640hudof01 192 128 48  16
 
 d_knife            640 640hudof01 192 112 48  16
 d_pipewrench       640 640hudof01 192 0 48  16
+d_eagle            640 640hudof01 192 32 48  16
 
 item_battery		640 640hud2	176	0	44	44
 item_healthkit		640 640hud2	176	48	44	44
