@@ -26,9 +26,10 @@ FontSize   = 17
 FontWeight = 0
 
 // foreground colors (RGBA, A=0 being fully transparent, A=255 fully solid)
-FgColor          = "150 185 225 255"
-FgColorArmed     = "255 255 255 255"
-FgColorMousedown = "255 255 255 255"
+//FgColor          = 255 0 0 150"
+FgColor          = 255 0 0 150"
+FgColorArmed     = "255 255 255 150"
+FgColorMousedown = "255 255 255 150"
 
 // background colors (note that these always default to "0 0 0 0")
 BgColor          = "0 0 0 0"
@@ -42,10 +43,10 @@ BgColorMousedown = "0 0 0 0"
 SchemeName = "Primary Button Text"
 FontName = "Arial"
 FontSize = 16
-FgColor = "150 185 225 255"
+FgColor = "255 185 225 150"
 BgColor = "0 0 0 141"
-FgColorArmed = "255 255 255 255"
-BgColorArmed = "150 185 225 255"
+FgColorArmed = "255 255 255 150"
+BgColorArmed = "0 185 225 150"
 
 // COMMAND MENU TEXT
 SchemeName = "CommandMenu Text"
@@ -74,14 +75,14 @@ FontWeight = 0
 SchemeName = "Title Font"
 FontName = "Arial"
 FontSize = 23
-FgColor = "150 185 225 255"
+FgColor = 255 0 0 150"
 
 // CLASSDESC, MAPDESC, MOTD text windows
 SchemeName = "Briefing Text"
 FontName = "Arial"
 FontSize = 14
 FontWeight = 0
-FgColor = "255 255 255 255"
+FgColor = "255 255 255 150"
 
 // Team info text (list of players, etc)
 // fgColor is automatically set to the teams color
@@ -92,10 +93,24 @@ FontWeight = 0
 
 // Team info text (list of players, etc)
 // fgColor is automatically set to the teams color
-SchemeName = "VGUI_Main"
-FontName = "Arial"
+SchemeName = "HLE menu default"
+FontName = "Arial Black"
+FontSize = 20
+
+SchemeName = "HLE menu large"
+FontName = "Arial Black"
+FontSize = 28
+
+SchemeName = "HLE menu small"
+FontName = "Arial Black"
 FontSize = 16
-FontWeight = 0
+
+SchemeName = "HLE menu title"
+FontName = "Arial Black"
+FontSize = 34
+
+
+
 
 // Team info text (list of players, etc)
 // fgColor is automatically set to the teams color

@@ -59,10 +59,25 @@ FontWeight = 0
 
 // Team info text (list of players, etc)
 // fgColor is automatically set to the teams color
-SchemeName = "VGUI_Main"
-FontName = "Arial"
+
+SchemeName = "HLE menu default"
+FontName = "Arial Black"
+FontSize = 20
+
+SchemeName = "HLE menu large"
+FontName = "Arial Black"
+FontSize = 28
+
+SchemeName = "HLE menu small"
+FontName = "Arial Black"
 FontSize = 16
-FontWeight = 0
+
+SchemeName = "HLE menu title"
+FontName = "Arial Black"
+FontSize = 34
+
+
+
 
 // Team info text (list of players, etc)
 // fgColor is automatically set to the teams color
